@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.flex{
+    display: flex;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.tb {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px;
+    margin-top: 50px;
+}
+
+.tb th, .tb td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tb th {
+    background-color: #f2f2f2;
+}
+
+.tb tr:nth-child(even) {
+    background-color: #4796BD;
+}
+
+.tb tr:hover {
+    background-color: #ddd;
+}
+
+
+.addinfo {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.addinfo input[type='text'],
+.addinfo input[type='number'] {
+    width: calc(100% - 10px);
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.addinfo input[type='submit'] {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4796BD;
+    color: #fff;
+    cursor: pointer;
+}
+
+.addinfo input:required {
+    border-color: #4796BD;
+}
+
+.addinfo input:invalid {
+    border-color: #4796BD;
+}
+
+.addinfo input:invalid + span::after {
+    content: ' *';
+    color: #4796BD;
+}
+
+/* specific styling */
+

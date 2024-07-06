@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory</title>
+    <link rel="stylesheet" href="ut.css">
+    <style>
+.he {
+    margin: 20px;
+}
+
+.he h3 {
+    margin-bottom: 10px;
+}
+
+.he select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.he input[type='submit'] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4796BD;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.he input[type='submit']:hover {
+    background-color: #1c709a;
+}
+</style>
+</head>
+<body>
+    <div class="he">
+        <h3>Inventory</h3>
+        <form action="inv.php" method="get">
+        <select name="inop" id="">
+            <option value="1">View</option>
+            <option value="2">Add</option>
+            <option value="3">Update</option>
+            <option value="4">Remove</option>
+        </select>
+        <input type="submit" value="Next>">
+    </form>
+    </div>
+
+</body>
+</html>
